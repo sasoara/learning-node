@@ -2,3 +2,9 @@
 
 ## Set up a new or existing npm package.
 run `npm init`
+
+## New branch
+Create a branch on the local machine and switch in this branch :
+`git checkout -b create-server`
+Push the branch on github :
+`git push origin create-server`
