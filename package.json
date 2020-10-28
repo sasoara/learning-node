@@ -1,0 +1,19 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "Explore the open source server environment · Node. js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasoara/learning-node.git"
+  },
+  "author": "Sarah Bettinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasoara/learning-node/issues"
+  },
+  "homepage": "https://github.com/sasoara/learning-node#readme"
+}
