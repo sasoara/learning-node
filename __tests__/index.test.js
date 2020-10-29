@@ -1,4 +1,4 @@
-const { greeting, sayingGoodbye } = require('./index');
+const { greeting, sayingGoodbye } = require('../index');
 
 // suite of tests
 describe('say hello', () => {
