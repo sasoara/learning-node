@@ -19,7 +19,7 @@ add to package.json :
     "test": "jest --watchAll --collectCoverage"
   },
 To use it :
-`jest`
+`jest --detectOpenHandles`
 
 ## Unit-Testing
 in js file :

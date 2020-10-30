@@ -1,15 +1,10 @@
 {
   "name": "learning-node",
-  "jest": {
-    "collectCoverage": true
-  },
   "version": "1.0.0",
   "description": "Explore the open source server environment · Node. js",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "jest --watchAll --collectCoverage",
-    "start": "node server.js"
+    "test": "jest --watchAll --collectCoverage"
   },
   "repository": {
     "type": "git",
