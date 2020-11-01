@@ -4,7 +4,7 @@
   "description": "Explore the open source server environment · Node. js",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll --collectCoverage"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sasoara/learning-node/issues"
   },
-  "homepage": "https://github.com/sasoara/learning-node#readme"
+  "homepage": "https://github.com/sasoara/learning-node#readme",
+  "devDependencies": {
+    "jest": "^26.6.1"
+  },
+  "dependencies": {}
 }

@@ -11,8 +11,27 @@ Push the branch on github :
 
 ## Install Jest Testing-Framework globally
 run `npm install jest --global`
+add to package.json :
+"jest": {
+    "collectCoverage": true
+  },
+"scripts": {
+    "test": "jest --watchAll --collectCoverage"
+  },
 To use it :
-`jest`
+`jest --detectOpenHandles`
+
+## Unit-Testing
+in js file :
+`module.exports = { greeting, sayingGoodbye };`
+in test.js file :
+`const { greeting, sayingGoodbye } = require('./index');`
+
+## Server can give different response
+* **json** > `node json.js`
+* a **csv** file > `node csv.js`
+* **html** > `node html.js`
+* a **html** file > `node htmlFile.js`
 
 ##### Git commands
 <!-- use remote branch locally -->
