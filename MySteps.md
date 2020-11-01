@@ -29,6 +29,7 @@ in test.js file :
 
 ## Server can give different response
 * a **json** file > `node json.js`
+* a **csv** file > `node csv.js`
 
 ##### Git commands
 <!-- use remote branch locally -->
