@@ -28,8 +28,9 @@ in test.js file :
 `const { greeting, sayingGoodbye } = require('./index');`
 
 ## Server can give different response
-* a **json** file > `node json.js`
+* **json** > `node json.js`
 * a **csv** file > `node csv.js`
+* **html** > `node html.js`
 
 ##### Git commands
 <!-- use remote branch locally -->
