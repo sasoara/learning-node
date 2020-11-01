@@ -27,6 +27,8 @@ in js file :
 in test.js file :
 `const { greeting, sayingGoodbye } = require('./index');`
 
+## Server can give different response
+* a **json** file > `node json.js`
 
 ##### Git commands
 <!-- use remote branch locally -->
