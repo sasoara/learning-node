@@ -31,6 +31,7 @@ in test.js file :
 * **json** > `node json.js`
 * a **csv** file > `node csv.js`
 * **html** > `node html.js`
+* a **html** file > `node htmlFile.js`
 
 ##### Git commands
 <!-- use remote branch locally -->
