@@ -34,6 +34,11 @@ in test.js file :
 * a **html** file > `node htmlFile.js`
 * different **json** content > `node routes.js`
 
+## Create http2 secure server
+browser uses http/2 protocol > `node http2server.js`
+Create private key and a self signed certificate :
+`openssl req -x509 -newkey rsa:4096 -nodes -sha256 -subj '/CN=localhost' -keyout localhost-private.pem -out localhost-cert.pem`
+
 ##### Git commands
 <!-- use remote branch locally -->
 `git checkout -b create-server origin/create-server`
