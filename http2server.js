@@ -9,8 +9,8 @@ const port = 9443;
 
 // Creates the server
 const server = http2.createSecureServer({
-    "key": fs.readFileSync("localhost-private.pem"),
-    "cert": fs.readFileSync("localhost-cert.pem")
+    "key": fs.readFileSync("ssl/localhost-private.pem"),
+    "cert": fs.readFileSync("ssl/localhost-cert.pem")
 });
 // Bind the server to a network address and listen.
 server.on("stream", (stream, headers) => {

@@ -39,6 +39,10 @@ browser uses http/2 protocol > `node http2server.js`
 Create private key and a self signed certificate :
 `openssl req -x509 -newkey rsa:4096 -nodes -sha256 -subj '/CN=localhost' -keyout localhost-private.pem -out localhost-cert.pem`
 
+## Allow invalid certificates for resources loaded from localhost.
+Chrome Browser :
+chrome://flag ; Allow invalid cert from localhost - enable
+
 ##### Git commands
 <!-- use remote branch locally -->
 `git checkout -b create-server origin/create-server`
