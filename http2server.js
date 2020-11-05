@@ -1,17 +1,12 @@
 // Contains the function for creating the server
 const http2 = require('http2');
-// Contains the async functions
+// To read files
 const fs = require('fs');
 // Defines the host to which the server is bound
 const host = 'localhost';
 // Defines the port to which the server is bound
 const port = 9443;
-// Handle the request and give the response
-const requestListener = function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.write("Grueezi");
-    res.end("My first server!");
-};
+
 // Creates the server
 const server = http2.createSecureServer({
     "key": fs.readFileSync("localhost-private.pem"),
@@ -28,5 +23,3 @@ server.on("stream", (stream, headers) => {
 
 server.listen(port);
 console.log(`Server is running on https://${host}:${port}`);
-
-module.exports = { port, host };
