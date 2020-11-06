@@ -4,5 +4,4 @@ node_modules
 coverage/
 
 ## private key and cert ##
-localhost-private.pem
-localhost-cert.pem
+ssl/

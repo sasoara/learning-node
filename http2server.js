@@ -7,10 +7,10 @@ const host = 'localhost';
 // Defines the port to which the server is bound
 const port = 9443;
 
-// Creates the server
 const server = http2.createSecureServer({
-    "key": fs.readFileSync("ssl/localhost-private.pem"),
-    "cert": fs.readFileSync("ssl/localhost-cert.pem")
+    cert: fs.readFileSync("./ssl/server.crt"),
+    key: fs.readFileSync("./ssl/server.key"),
+    ca: fs.readFileSync("./ssl/rootCA.crt")
 });
 // Bind the server to a network address and listen.
 server.on("stream", (stream, headers) => {

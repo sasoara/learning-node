@@ -43,6 +43,9 @@ Create private key and a self signed certificate :
 Chrome Browser :
 chrome://flag ; Allow invalid cert from localhost - enable
 
+## Create different certificates
+run `bash ssl.sh`
+
 ##### Git commands
 <!-- use remote branch locally -->
 `git checkout -b create-server origin/create-server`
